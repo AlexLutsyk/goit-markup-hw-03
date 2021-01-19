@@ -330,19 +330,33 @@ a {
 /* END FOOTER */
 
 /* PORTFOLIO STYLES */
-.project .container {
-  flex-direction: column;
+.container-project{
+  align-items: center;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
+.nav-list{
+  align-items: center;
+}
+/* <<<<<<button-outline>>>>>> */
+/* all IMG - display:block; */
+/* all section have padding-top, -botom */
 .nav-project-list {
   margin: 0;
+  margin-bottom: 50px;
   padding: 0;
 }
-.nav-project-list .nav-project-items {
-  display: inline-block;
-}
+
+
+
 .nav-project-list .nav-project-items:not(:last-child) {
   margin-right: 8px;
 }
+
+/* BUTTON */
 .nav-project-items .button {
   padding: 6px 22px;
   border: none;
@@ -368,7 +382,22 @@ a {
   border: none;
 }
 
-.project-items h2 {
+/* END BUTTON */
+
+/* PROJECTS */
+
+.project-list {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-project-list .nav-project-items {
+  display: inline-block;
+}
+.project-items .project-item-heading {
+  margin: 0;
+  margin-bottom: 4px;
+
   font-family: Roboto, sans-serif;
   color: var(--heading-color);
   font-style: normal;
@@ -377,3 +406,13 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+
+.project-items .project-text {
+  margin: 0;
+}
+
+.project-items .project-img{
+  margin-bottom: 20px;
+}
+
+/* END PROJECTS */
